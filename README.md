@@ -17,6 +17,7 @@ Clone the repository to include the MyCustomElement library in your project:
 
 ```bash
 git clone https://github.com/yourusername/mycustom-element-library.git
+```
 
 ### Usage
 
@@ -30,7 +31,6 @@ git clone https://github.com/yourusername/mycustom-element-library.git
 Use the Custom Element in HTML
 
 html
-Copy code
 <body>
     <my-custom-element></my-custom-element>
     <button id="animate-btn">Animate</button>
