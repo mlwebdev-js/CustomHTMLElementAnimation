@@ -38,14 +38,14 @@ html
 Control Animations with the AnimationController
 
 Import and use AnimationController to interact with the custom element:
-
+```
 import { AnimationController } from './path/to/AnimationController.js';
 
 const animationController = new AnimationController();
 document.getElementById('animate-btn').addEventListener('click', () => {
     animationController.triggerAnimation();
 });
-
+```
 
 ## Documentation
 MyCustomElement: This class provides the structure and methods to create a custom HTML element with shadow DOM for style encapsulation.
