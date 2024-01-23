@@ -30,14 +30,17 @@ git clone https://github.com/yourusername/mycustom-element-library.git
 
 Use the Custom Element in HTML
 
+```
 html
 <body>
     <my-custom-element></my-custom-element>
     <button id="animate-btn">Animate</button>
 </body>
+```
 Control Animations with the AnimationController
 
 Import and use AnimationController to interact with the custom element:
+
 ```
 import { AnimationController } from './path/to/AnimationController.js';
 ```
